@@ -1,0 +1,14 @@
+# Ignore system files
+.DS_Store
+*.log
+*.sqlite
+
+# Ignore cache / user folders
+__pycache__/
+.ipynb_checkpoints/
+.anaconda/
+.conda/
+applications/
+navigator/
+*.png
+*.svg
