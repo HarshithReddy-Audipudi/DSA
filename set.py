@@ -7,3 +7,6 @@ print(s)
 #mutable
 #set cant store mutable objects in it
 #set is not cannot be nested.
+
+
+#As we cant use indexing,we can use "in" and looping methods to index a set.
