@@ -48,3 +48,30 @@ print("Top:", s.peek())      # Output: 20
 print("Popped:", s.pop())    # Output: 20
 print("Is Empty:", s.is_empty())  # Output: False
 print("Stack:", s.display()) # Output: [10]
+
+
+
+#we can create stack using methods as well
+##1.collections library-#deque class
+import collections
+stack=collections.deque
+s=stack()
+s.append(1)
+s.append(2)
+print(list(s))
+
+##2.queue-lifoqueue-by put and get methods
+import queue
+stack=queue.LifoQueue
+s1=stack(3)
+s1.put(10)
+s1.put(20)
+s1.put(30)
+try:
+    s1.put(40,timeout=2)
+except queue.Full:
+    print("its full")
+
+
+
+
