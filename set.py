@@ -5,3 +5,5 @@ print(s)
 #wont accept duplicates
 #unordered
 #mutable
+#set cant store mutable objects in it
+#set is not cannot be nested.
